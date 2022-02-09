@@ -2,28 +2,37 @@
   "name": "aha-develop.abstract",
   "description": "Abstract integration",
   "version": "0.0.0",
-  "author": "aha-develop",
+  "author": "support@aha.io",
   "repository": {
     "type": "git",
-    "url": "TODO: Add the GitHub URL to your extension in package.json"
+    "url": "https://github.com/aha-develop/abstract"
   },
   "license": "MIT",
   "devDependencies": {
+    "@aha-app/aha-develop-react": "link:../aha-develop-react",
     "@types/react": "^16.8.0"
   },
   "ahaExtension": {
+    "cspSources": [
+      "https://app.goabstract.com",
+      "https://app.abstract.com"
+    ],
     "contributes": {
       "views": {
-        "abstract": {
+        "abstractAttribute": {
           "title": "Abstract",
-          "entryPoint": "src/views/abstract.js",
+          "entryPoint": "src/views/attribute.js",
           "host": "attribute",
           "recordTypes": [
             "Feature",
             "Requirement",
-            "Epic",
-            "Release"
+            "Epic"
           ]
+        },
+        "abstractPanel": {
+          "title": "Abstract",
+          "entryPoint": "src/views/panel.js",
+          "host": "panel"
         }
       }
     }
