@@ -1,0 +1,31 @@
+{
+  "name": "aha-develop.abstract",
+  "description": "Abstract integration",
+  "version": "0.0.0",
+  "author": "aha-develop",
+  "repository": {
+    "type": "git",
+    "url": "TODO: Add the GitHub URL to your extension in package.json"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8.0"
+  },
+  "ahaExtension": {
+    "contributes": {
+      "views": {
+        "abstract": {
+          "title": "Abstract",
+          "entryPoint": "src/views/abstract.js",
+          "host": "attribute",
+          "recordTypes": [
+            "Feature",
+            "Requirement",
+            "Epic",
+            "Release"
+          ]
+        }
+      }
+    }
+  }
+}
