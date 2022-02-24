@@ -1,4 +1,4 @@
-# Marvel
+# Abstract integration
   
 This [Aha! Develop](https://www.aha.io/develop/overview) extension allows you to embed your Abstract screens into an Aha! epic, feature, or requirement.
 
