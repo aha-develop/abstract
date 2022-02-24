@@ -9,7 +9,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@aha-app/aha-develop-react": "link:../aha-develop-react",
     "@types/react": "^16.8.0"
   },
   "ahaExtension": {
@@ -36,5 +35,8 @@
         }
       }
     }
+  },
+  "dependencies": {
+    "@aha-develop/aha-develop-react": "^1.2.0"
   }
 }

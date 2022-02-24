@@ -1,5 +1,5 @@
 import React from "react";
-import { EmbeddedContent } from "@aha-app/aha-develop-react";
+import { EmbeddedContent } from "@aha-develop/aha-develop-react";
 
 const AhaPanel = aha.getPanel("aha-develop.abstract", "abstractPanel", { name: "Abstract" });
 
