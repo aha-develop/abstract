@@ -1,5 +1,7 @@
 // https://sdk.goabstract.com/docs/embed/
 export const ensureEmbedFlags = (url) => {
+  if (!url) return
+
   if (url.includes('abstract.com/embed')) {
     return url
   } else {
