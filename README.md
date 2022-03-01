@@ -27,9 +27,8 @@ npm install -g aha-cli
 
 Clone the repo:
 
-TODO: Add the repository URL here
 ```sh
-git clone ...
+git clone https://github.com/aha-develop/abstract.git
 ```
 
 **Note: In order to install an extension into your Aha! Develop account, you must be an account administrator.**
