@@ -1,17 +1,15 @@
 # Abstract integration
   
-TODO: Supply a short overview of the functionality the extension brings to Aha! Develop
-This [Aha! Develop](https://www.aha.io/develop/overview) extension enables...
+This [Aha! Develop](https://www.aha.io/develop/overview) extension allows you to embed your Abstract screens into an Aha! epic, feature, or requirement.
 
 It provides these contributions:
 
-TODO: Add a contribution list here. These should briefly describe each of the features provided by this extension.
+- `Abstract attribute` - Link a Abstract screen to a record in Aha! to see a live preview of the design.
+- `Abstract panel` - Embed a Abstract screen in a note in Aha! to see a live preview of the design.
 
 ## Demo
 
-TODO: Add a short .gif screen recording showing some of the highlights of your extension. This can be recorded using a tool like [LICECap](https://www.cockos.com/licecap/).
-
-![demo](demo.gif)
+![Screenshot](res/screenshot.png)
 
 ## Installing the extension
 
